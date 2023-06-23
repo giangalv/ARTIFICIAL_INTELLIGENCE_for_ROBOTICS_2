@@ -20,6 +20,9 @@ The coffee shop layout is shown in the figure above. It has the bar counter on t
 
 ### Problems to be encoded
 • Problem 1: There are 2 customers at table 2: they ordered 2 cold drinks. Tables 3 and 4 need to be cleaned.  
+
 • Problem 2: There are 4 customers at table 3: they ordered 2 cold drinks and 2 warm drinks. Table 1 needs to be cleaned.  
+
 • Problem 3: There are 2 customers at table 4: they ordered 2 warm drinks. There are also 2 customers at table 1: they ordered 2 warm drinks. Table 3 needs to be cleaned.  
+
 • Problem 4: There are 2 customers at table 4 and 2 customers at table 1: they all ordered cold drinks. There are also 4 customers at table 3: they all ordered warm drinks. Table 4 needs to be cleaned. 
