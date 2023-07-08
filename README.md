@@ -26,3 +26,8 @@ The coffee shop layout is shown in the figure above. It has the bar counter on t
 • Problem 3: There are 2 customers at table 4: they ordered 2 warm drinks. There are also 2 customers at table 1: they ordered 2 warm drinks. Table 3 needs to be cleaned.  
 
 • Problem 4: There are 2 customers at table 4 and 2 customers at table 1: they all ordered cold drinks. There are also 4 customers at table 3: they all ordered warm drinks. Table 4 needs to be cleaned. 
+
+# Task and Motion Planning - 2 ASSIGNMENT
+Consider the 2D environment shown at end. There are four student groups, each assigned to regions 1-4, working on their assignments. Robot R is responsible for collecting the assignment reports and delivering them to the submission desk (red in figure). The dimension of the environment is 6m × 6m. R is initially at (0, 0) and the submission desk is at (3, 0). For the sake of simplicity, assume each region is of size 1m × 1m and associate a single way-point (x, y) to each region. Randomly sample 24 way-points (x, y) from the environment, outside the regions. The sampled way-points are connected to form edges. You can choose a k such that each way-point is connected to a maximum of k other way-points. This results in a roadmap with way-points as nodes. Finally, the 4 way-points associated with each region, the initial location of R, and the submission desk are to be connected to the nearest nodes in the roadmap.
+
+![Alt text](https://github.com/giangalv/ARTIFICIAL_INTELLIGENCE_for_ROBOTICS_2/tree/main/picture/enviroment_2D.png)
